@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 3, 58);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jeu {
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: rgba(244, 205, 205, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.jeu h1 {
+  color: rgb(8, 8, 158);
+}
+.jeu img {
+  width: 50%;
+}
+
+.jeu button {
+  background-color: rgb(8, 8, 88);
+  color: white;
+  border: none;
+  font-size: 20px;
+  width: 80%;
+  padding: 7px;
+}
+
+.jeu button:hover {
+  opacity: 0.75;
+}
+
+.facede {
+  width: 130px;
+  height: 130px;
+}
+
+.jeu h2 {
+  font-size: 20px;
+}
